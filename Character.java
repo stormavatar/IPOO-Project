@@ -1,10 +1,13 @@
+
 public class Character {
     private String name ;
     private int ap;
     private int dp;
     private int xp;
-   
+    private String sector;
+    private Artifact[] bag;
     
+
     public Character() {
         this.name = "";
         this.ap = 0;
@@ -36,5 +39,11 @@ public class Character {
     public int getXp(){
         return this.xp;
     }
+
+    public void bag(){
+        bag = new Artifact[21];
+         
+    }
+
 }
 
